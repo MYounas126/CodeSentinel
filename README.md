@@ -34,3 +34,4 @@ It's highly recommended to create a virtual environment to isolate SecureEye's d
 ```bash
 python3 -m venv venv
 source ./venv/bin/activate  # On Windows use: .\venv\Scripts\activate 
+
