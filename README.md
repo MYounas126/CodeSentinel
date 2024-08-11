@@ -68,5 +68,5 @@ Upon analyzing your code, CodeSentinel will generate a comprehensive report that
 
 # Output
 Here I have analyze a random github repo and here is the report that CodeSentinel have generate.
-
-
+[Download the pdf]
+https://github.com/MYounas126/CodeSentinel/blob/main/report.pdf
