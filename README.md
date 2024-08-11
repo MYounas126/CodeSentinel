@@ -41,7 +41,7 @@ Getting started with CodeSentinel is a breeze. Follow these simple steps to set 
 git clone https://github.com/MYounas126/CodeSentinel.git
 ```
 ### 2. Create a Virtual Environment:
-It's highly recommended to create a virtual environment to isolate SecureEye's dependencies from your system-wide Python installations. You can achieve this using the following commands:
+It's highly recommended to create a virtual environment to isolate CodeSentinel dependencies from your system-wide Python installations. You can achieve this using the following commands:
 
 ```bash
 python3 -m venv venv
