@@ -76,7 +76,7 @@ Here I have analyze a random github repo and here is the report that CodeSentine
 This example showcases how CodeSentinel not only identifies an unvalidated input vulnerability but also provides concrete mitigation steps with the corresponding secure code snippet.
 
 ## Contributing
-SecureEye welcomes contributions from the developer community! Feel free to submit a pull request to propose enhancements or bug fixes.
+CodeSentinel welcomes contributions from the developer community! Feel free to submit a pull request to propose enhancements or bug fixes.
 
 ## License
-SecureEye is licensed under the permissive MIT License. Refer to the LICENSE file for more details.
+CodeSentinel is licensed under the permissive MIT License. Refer to the LICENSE file for more details.
