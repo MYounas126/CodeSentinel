@@ -1,0 +1,1 @@
+from .js_scraper import scrape_js_sync
