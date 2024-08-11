@@ -28,7 +28,19 @@ CodeSentinel goes beyond simply identifying vulnerabilities. It empowers develop
 
 Getting started with CodeSentinel is a breeze. Follow these simple steps to set up and run the tool:
 
-### 1. Create a Virtual Environment:
+## Prerequisites:
+
+Python 3.6+
+Virtual environment (recommended)
+
+# Steps:
+
+### 1.Clone the repository
+
+```bash
+git clone https://github.com/MYounas126/CodeSentinel.git
+```
+### 2. Create a Virtual Environment:
 It's highly recommended to create a virtual environment to isolate SecureEye's dependencies from your system-wide Python installations. You can achieve this using the following commands:
 
 ```bash
@@ -36,7 +48,7 @@ python3 -m venv venv
 source ./venv/bin/activate  # On Windows use: .\venv\Scripts\activate 
 ```
 
-### 2. Install Dependencies
+### 3. Install Dependencies
 After activiting virtual environment on your system, follow this command
 
 ```bash
