@@ -34,4 +34,28 @@ It's highly recommended to create a virtual environment to isolate SecureEye's d
 ```bash
 python3 -m venv venv
 source ./venv/bin/activate  # On Windows use: .\venv\Scripts\activate 
+```
 
+### 2. Install Dependencies
+After activiting virtual environment on your system, follow this command
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+You can use CodeSentinel in two ways:
+
+### 1. Command Line Interface
+To run CodeSentinel from the command line, use:
+```bash 
+python3 cli.py --url <repository-url> #Find vulnerability in a Codebase of github repo
+```
+There are some other options as well like as we can also use --js and --path options for finding vulnerabilities in JS website URL, or a local path respectivley.
+
+### 2. Web Application
+To run SecureEye as a web application, use:
+```bash
+streamlit run app.py
+```
+![Alt text](images/Screenshot 2024-08-11 130809.png)
