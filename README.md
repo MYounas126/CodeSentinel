@@ -30,8 +30,8 @@ Getting started with CodeSentinel is a breeze. Follow these simple steps to set 
 
 ## Prerequisites:
 
-Python 3.6+
-Virtual environment (recommended)
+- Python 3.6+
+- Virtual environment (recommended)
 
 # Steps:
 
