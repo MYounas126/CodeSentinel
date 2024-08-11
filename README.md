@@ -58,4 +58,4 @@ To run SecureEye as a web application, use:
 ```bash
 streamlit run app.py
 ```
-![Alt text](images/Screenshot 2024-08-11 130809.png)
+![Alt text](images/C:\Users\Muhammad Younas\SecureEye\CodeSentinel\Screenshot 2024-08-11 130809.png)
