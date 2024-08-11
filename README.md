@@ -6,20 +6,31 @@ CodeSentinel is a cutting-edge, AI-powered tool designed to streamline and enhan
 
 ## Vulnerability Detection:
 
- SecureEye meticulously examines your code to uncover a wide range of vulnerabilities, including prevalent attack vectors such as SQL injection, Cross-Site Scripting (XSS), buffer overflows, and remote code execution.
+ CodeSentinel meticulously examines your code to uncover a wide range of vulnerabilities (Specially OWASP Top 10), including prevalent attack vectors such as SQL injection, Cross-Site Scripting (XSS), buffer overflows, remote code execution and more.
 
 ## Secure Coding Practices Evaluation: 
 
-Beyond vulnerability detection, SecureEye analyzes your codebase for adherence to secure coding practices. This includes scrutinizing aspects like input validation, output sanitization, robust authentication and access control mechanisms, and proper error handling.
+Beyond vulnerability detection, CodeSentinel analyzes your codebase for adherence to secure coding practices. This includes scrutinizing aspects like input validation, output sanitization, robust authentication and access control mechanisms, and proper error handling.
 
 ## Detailed Reporting: 
 
-Following a thorough analysis, SecureEye generates in-depth reports that provide valuable insights for developers and security professionals. These reports encompass:
+Following a thorough analysis, CodeSentinel generates in-depth reports that provide valuable insights for developers and security professionals. These reports encompass:
 - Clear descriptions of each identified vulnerability
 - Assigned severity levels to prioritize critical issues
-- Code snippets pinpointing the location of vulnerabilities within your codebase
-- Actionable recommendations for bolstering your code's security posture
+- Affected code snippets
+- Actionable Recommendations for improving security posture
 
 ## Mitigation Guidance: 
 
-SecureEye goes beyond simply identifying vulnerabilities. It empowers developers by offering step-by-step guidance on how to mitigate these issues. This includes providing code snippets that illustrate both the vulnerable code and the recommended secure refactoring.
+CodeSentinel goes beyond simply identifying vulnerabilities. It empowers developers by offering step-by-step guidance on how to mitigate these issues. This includes providing code snippets that illustrate both the vulnerable code and the recommended secure refactoring.
+
+## Installation
+
+Getting started with CodeSentinel is a breeze. Follow these simple steps to set up and run the tool:
+
+### 1. Create a Virtual Environment:
+It's highly recommended to create a virtual environment to isolate SecureEye's dependencies from your system-wide Python installations. You can achieve this using the following commands:
+
+```bash
+python3 -m venv venv
+source ./venv/bin/activate  # On Windows use: .\venv\Scripts\activate 
